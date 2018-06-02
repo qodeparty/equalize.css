@@ -1,0 +1,32 @@
+{
+  "name": "primer.css",
+  "version": "1.0.0",
+  "description": "Tiny Reset CSS to primer elements ",
+  "main": "dist/primer.min.css",
+  "scripts": {
+    "build": "npm run build-dev && npm run build-min",
+    "clean": "rm -rf ./dist/",
+    "build-dev": "mkdir -p ./dist && stylus ./src/index.styl --out ./dist/primer.css",
+    "build-min": "mkdir -p ./dist && stylus -c ./src/index.styl --out ./dist/primer.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qodeparty/primer.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qodeparty/primer.css/issues"
+  },
+  "homepage": "https://github.com/qodeparty/primer.css#readme",
+  "keywords": [
+    "css",
+    "styl",
+    "stylus",
+    "sass",
+    "reset",
+    "mini",
+    "tiny",
+    "normalize"
+  ],
+  "author": "qodeninja",
+  "license": "MIT"
+}

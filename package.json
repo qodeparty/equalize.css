@@ -1,22 +1,22 @@
 {
-  "name": "primer.css",
+  "name": "equalizer.css",
   "version": "1.0.0",
-  "description": "Tiny Reset CSS to primer elements ",
-  "main": "dist/primer.min.css",
+  "description": "Tiny Reset CSS to equalize elements ",
+  "main": "dist/equalizer.min.css",
   "scripts": {
     "build": "npm run build-dev && npm run build-min",
     "clean": "rm -rf ./dist/",
-    "build-dev": "mkdir -p ./dist && stylus ./src/index.styl --out ./dist/primer.css",
-    "build-min": "mkdir -p ./dist && stylus -c ./src/index.styl --out ./dist/primer.min.css"
+    "build-dev": "mkdir -p ./dist && stylus ./src/index.styl --out ./dist/equalizer.css",
+    "build-min": "mkdir -p ./dist && stylus -c ./src/index.styl --out ./dist/equalizer.min.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qodeparty/primer.css.git"
+    "url": "git+https://github.com/qodeparty/equalizer.css.git"
   },
   "bugs": {
-    "url": "https://github.com/qodeparty/primer.css/issues"
+    "url": "https://github.com/qodeparty/equalizer.css/issues"
   },
-  "homepage": "https://github.com/qodeparty/primer.css#readme",
+  "homepage": "https://github.com/qodeparty/equalizer.css#readme",
   "keywords": [
     "css",
     "styl",

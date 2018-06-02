@@ -1,8 +1,8 @@
-# Primer.CSS
+# Equalizer.CSS
 
-[![npm](https://img.shields.io/npm/v/equalize.css.svg)](https://www.npmjs.com/package/primer.css)
+[![npm](https://img.shields.io/npm/v/equalizer.css.svg)](https://www.npmjs.com/package/equalizer.css)
 
-Tiny Reset CSS to primer base elements across browsers:
+Tiny Reset CSS to Equalize base elements across browsers:
 
 * Simple yet robust
 * Supports Responsive Web Design (media elements, fonts, tables)
@@ -12,7 +12,7 @@ Tiny Reset CSS to primer base elements across browsers:
 ## Install
 
 ```sh
-npm install primer.css
+npm install Equalizer.css
 ```
 
 ## :heart: Lovingly brought to you by :tada: qodeparty

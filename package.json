@@ -1,6 +1,6 @@
 {
   "name": "equalizer.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny Reset CSS to equalize elements ",
   "main": "dist/equalizer.min.css",
   "scripts": {

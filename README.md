@@ -15,7 +15,7 @@ Tiny Reset CSS to primer base elements across browsers:
 npm install primer.css
 ```
 
-## :heart: Lovingly brought to you by :tada:
+## :heart: Lovingly brought to you by :tada: qodeparty
 
 ```
                            __                                            __               

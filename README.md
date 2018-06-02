@@ -12,7 +12,7 @@ Tiny Reset CSS to Equalize base elements across browsers:
 ## Install
 
 ```sh
-npm install Equalizer.css
+npm install equalizer.css
 ```
 
 ## :heart: Lovingly brought to you by :tada: qodeparty

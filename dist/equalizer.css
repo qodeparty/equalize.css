@@ -228,6 +228,15 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
 details,
 menu {
   display: block;

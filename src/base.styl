@@ -1,0 +1,79 @@
+
+/*//////////////////////////////////////////////////////////////////////////////
+// Tags
+//////////////////////////////////////////////////////////////////////////////*/
+
+html, body
+  box-sizing border-box
+  height 100%
+
+body 
+  line-height 1.15 
+
+*
+  &, &:before, &:after
+    box-sizing: inherit
+
+/*//////////////////////////////////////////////////////////////////////////////
+// Normalize Elements
+//////////////////////////////////////////////////////////////////////////////*/
+
+html, body, canvas, span, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+tt, caption, article, aside, figure, figcaption, footer, header, hgroup, menu, 
+nav, section, time, main, mark, audio, video, details, summary, output
+  margin 0
+  padding 0
+  border 0
+  font-size 100%
+  font inherit
+  vertical-align baseline
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, 
+nav, section
+  display block
+
+h1, h2, h3, h4, h5, h6
+  font-size 100%
+  font-weight normal
+
+
+/*//////////////////////////////////////////////////////////////////////////////
+// Table Elements
+//////////////////////////////////////////////////////////////////////////////*/
+
+table 
+  border-collapse collapse
+  border-spacing 0
+  
+td,
+th,
+tr
+  padding 0
+  text-align left
+/*//////////////////////////////////////////////////////////////////////////////
+// Opinionated
+//////////////////////////////////////////////////////////////////////////////*/
+
+ul
+  list-style none
+a
+  font-size 100%
+  vertical-align baseline
+  background transparent
+
+a
+  &:focus
+    outline thin dotted
+  &:hover,
+  &:active
+    outline 0
+    
+b, strong 
+  font-weight bolder
+
+[hidden],
+template
+  display none
